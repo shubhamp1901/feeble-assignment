@@ -43,9 +43,16 @@ export default function Hero() {
 
       {/* Cloud birds (behind clouds) */}
       <Bird
-        className="bottom-64 left-36"
+        className="bottom-48 left-36"
         rotate={-4}
         scale={0.9}
+        z={5}
+        showBubble
+      />
+      <Bird
+        className="bottom-14 left-48"
+        rotate={8}
+        scale={0.95}
         z={5}
         showBubble
       />
@@ -64,7 +71,7 @@ export default function Hero() {
         showBubble
       />
 
-       <div className="absolute bottom-28 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center text-sm text-gray-600 cursor-pointer">
+       <div className="absolute bottom-14 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center text-sm text-gray-600 cursor-pointer">
         <span>Scroll to learn more</span>
         <ArrowBigDown size={16} strokeWidth={1.5} className="mt-3" />
       </div>
