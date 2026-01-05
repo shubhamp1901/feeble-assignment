@@ -16,22 +16,22 @@ export default function Hero() {
       <Bird className="top-56 right-48" rotate={6} scale={0.9} />
 
       {/* Content */}
-      <div className="pt-40 text-center relative z-20">
+      <div className="pt-32 text-center relative z-20">
         <span className="inline-flex items-center gap-2 px-4 py-1 text-xs rounded-full bg-blue-100 text-blue-600 font-medium">
           💬 #1 iMessage Automation Tool
         </span>
 
-        <h1 className="mt-6 text-center font-extrabold text-4xl md:text-6xl leading-tight">
+        <h1 className="mt-4 text-center font-extrabold text-4xl md:text-5xl leading-tight">
           <span className="text-blue-600">iMessage</span> Automation <br />
           for Teams and AI <br /> Workflows.
         </h1>
 
-        <p className="mt-6 max-w-2xl mx-auto text-gray-600">
+        <p className="mt-6 max-w-xl mx-auto text-gray-600">
           Coup lets you, your team, or AI workflows send iMessages directly from
           your phone number, running securely on your Mac or Mac Mini.
         </p>
 
-        <div className="mt-8 flex justify-center gap-4">
+        <div className="mt-6 flex justify-center gap-4">
           <button className="bg-blue-600 text-white px-6 py-3 rounded-full">
             Get Started
           </button>
