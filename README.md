@@ -8,3 +8,8 @@
 
 * Framer Motion
 * Lucide React
+
+### How to Run the Project
+
+* npm install (Install dependencies)
+* npm run dev (Start development server)
