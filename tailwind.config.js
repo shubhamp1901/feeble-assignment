@@ -1,0 +1,12 @@
+export default {
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#3B82F6",
+        skyLight: "#EFF6FF",
+      },
+    },
+  },
+  plugins: [],
+};
